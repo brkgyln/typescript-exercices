@@ -10,6 +10,10 @@
     "scripts": {
         "lint": "tslint-config-prettier-check ./tslint.json",
         "watch": "tsc -p . -w",
-        "start-1": "tsc -w ./src/variables.ts && node dist/variables.js"
+        "start-1": "ts-node src/variables.ts"
+    },
+    "dependencies": {
+        "ts-node": "^10.4.0",
+        "typescript": "^4.4.4"
     }
 }
