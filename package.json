@@ -1,0 +1,15 @@
+{
+    "name": "typescript-exercices",
+    "version": "1.0.0",
+    "author": "brkgyln",
+    "license": "MIT",
+    "devDependencies": {
+        "tslint": "^6.1.3",
+        "tslint-config-prettier": "^1.18.0"
+    },
+    "scripts": {
+        "lint": "tslint-config-prettier-check ./tslint.json",
+        "watch": "tsc -p . -w",
+        "start-1": "tsc -w ./src/variables.ts && node dist/variables.js"
+    }
+}
